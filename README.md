@@ -1,6 +1,6 @@
 # francy
 
-[Describe the project.]
+Website for the band Francy
 
 ## Project Setup
 This project utilizes Playbook, reference Playbook's [setup guide](https://github.com/centresource/generator-playbook#get-started).
