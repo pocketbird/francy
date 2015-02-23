@@ -1,0 +1,24 @@
+.hero__heading {
+  font-family: $accent-font-family;
+  font-size: 5em;
+  padding: 2.25em 0;
+  text-align: center;
+  width: 100%;
+
+  @include media($medium-screen) {
+    font-size: 7em;
+  }
+}
+
+.mailing-list {
+  background: $black;
+  color: $white;
+  padding: 2.25em;
+  text-align: center;
+  width: 100%;
+}
+
+// Mailchimp signup override
+#mce-EMAIL {
+  color: $black;
+}

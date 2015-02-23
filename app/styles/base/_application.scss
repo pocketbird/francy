@@ -24,7 +24,22 @@
 
 .header-primary {}
 
-.nav-primary {}
+.nav-primary {
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+
+  li {
+    display: inline-block;
+    padding: 0.5em 1em;
+
+    @include media($medium-screen) {
+      font-size: 1.5em;
+    }
+  }
+}
 
 .content-primary {}
 
