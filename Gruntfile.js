@@ -373,8 +373,8 @@ module.exports = function (grunt) {
     'jekyll:check',
     'sass:dist',
     'jshint:all',
-    'csscss:check',
-    'csslint:check'
+    'csscss:check'
+    // 'csslint:check'
   ]);
 
   // No real tests yet. Add your own.
