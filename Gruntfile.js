@@ -351,6 +351,14 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
+    },
+    browserSync: {
+      server: {
+        options: {
+          watchTask: true,
+          proxy: 'localhost:9000'
+        }
+      }
     }
   });
 
@@ -364,6 +372,7 @@ module.exports = function (grunt) {
       'clean:server',
       'concurrent:server',
       'connect:livereload',
+      'browserSync',
       'watch'
     ]);
   });
